@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rango',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'tango_with_django_project.urls'
+#ROOT_URLCONF = 'tango_with_django_project\urls.py'
+
 
 TEMPLATES = [
     {
