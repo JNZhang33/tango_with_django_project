@@ -24,6 +24,9 @@ class Page(models.Model):
     url=models.URLField()
     views=models.IntegerField(default=0)
 
+    TITLE_MAX_LENGTH = 128
+    URL_MAX_LENGTH = 200
+
     def __str__(self):
         return self.title
 
